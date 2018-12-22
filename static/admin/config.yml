@@ -67,7 +67,7 @@ collections:
                 {
                   label: "Menu Category",
                   name: menu_category,
-                  widget: object,
+                  widget: list,
                   fields: [
                     {label: Heading, name: heading, widget: string},
                     {label: Description, name: description, widget: string},
