@@ -1,6 +1,5 @@
 ---
-templateKey: 'menu-page'
-path: /menu
+templateKey: menu-page
 title: Our Menu
 image: /img/fish_jumbotron.jpg
 heading: What we offer
@@ -98,4 +97,9 @@ pricing:
         - Unlimited varieties
       plan: Custom
       price: '??'
+beverages:
+  - description: Jagasilk Hoji Cha
+    name: Hoji Cha (Roasted Green Tea)
+    price: $1.50
 ---
+
