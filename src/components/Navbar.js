@@ -28,41 +28,50 @@ const Navbar = class extends React.Component {
  }
 
  render() {
-   return <div>
-       <div id="mainLogo" className="container center">
-         <Link to="/" title="Logo">
-           <img src={logo} alt="Uchida" />
-         </Link>
-       </div>
-       <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
-         <div className="container">
-           <div className="navbar-brand">
-             {/* Hamburger menu */}
-             <div className="navbar-burger burger" data-target="navMenu">
-               <span />
-               <span />
-               <span />
-             </div>
-           </div>
-           <div id="navMenu" className="navbar-menu">
-             <div className="navbar-start has-text-centered">
-               <Link className="navbar-item" to="/about">
-                 About
+    return <div>
+      <div id="mainLogo" className="container center">
+        <Link to="/" title="Logo">
+          <img src={logo} alt="Uchida" />
+        </Link>
+      </div>
+      <nav className="navbar is-transparent" role="navigation" aria-label="main-navigation">
+        <div className="container">
+          <div className="navbar-brand">
+            {/* Hamburger menu */}
+            <div className="navbar-burger burger" data-target="navMenu">
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+          <div id="navMenu" className="navbar-menu">
+            <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/about">
+                About
                </Link>
-               <Link className="navbar-item" to="/products">
-                 Menu
+              <Link className="navbar-item" to="/menu">
+                Menu
                </Link>
-               <Link className="navbar-item" to="/contact">
-                 Contact
+              <Link className="navbar-item" to="/products">
+                Product
                </Link>
-               <Link className="navbar-item" to="/contact/examples">
-                 Form Examples
+              <Link className="navbar-item" to="/contact">
+                Contact
                </Link>
-             </div>
-           </div>
-         </div>
-       </nav>
-     </div>;
+              <Link className="navbar-item" to="/contact/examples">
+                Form Examples
+               </Link>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div className="container center">
+        <ul>
+          <li>Monday - Friday</li>
+          <li>11am - 2pm</li>
+        </ul>
+      </div>
+    </div>;
   }
 }
 
