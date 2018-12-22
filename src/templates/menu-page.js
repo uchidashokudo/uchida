@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
+import MenuItems from '../components/MenuItems'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
@@ -17,6 +18,7 @@ export const MenuPageTemplate = ({
   testimonials,
   fullImage,
   pricing,
+  beverages,
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -92,6 +94,9 @@ export const MenuPageTemplate = ({
               </h2>
               <p className="is-size-5">{pricing.description}</p>
               <Pricing data={pricing.plans} />
+              <hr />
+              <h2>Beverages</h2>
+              <MenuItems menuItems={beverages} />
             </div>
           </div>
         </div>
@@ -122,6 +127,11 @@ MenuPageTemplate.propTypes = {
     description: PropTypes.string,
     plans: PropTypes.array,
   }),
+  beverages: PropTypes.shape({
+    name: PropTypes.string,
+    description: PropTypes.string,
+    price: PropTypes.string,
+  }),
 }
 
 const MenuPage = ({ data }) => {
@@ -139,6 +149,7 @@ const MenuPage = ({ data }) => {
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
+        beverages={frontmatter.beverages}
       />
     </Layout>
   )
@@ -236,6 +247,11 @@ export const menuPageQuery = graphql`
             plan
             price
           }
+        }
+        beverages {
+          name
+          description
+          price
         }
       }
     }
