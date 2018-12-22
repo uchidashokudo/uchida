@@ -101,5 +101,8 @@ beverages:
   - description: Jagasilk Hoji Cha
     name: Hoji Cha (Roasted Green Tea)
     price: $1.50
+  - description: 'Jun by Jagasilk '
+    name: Kombucha
+    price: $7
 ---
 
