@@ -4,15 +4,12 @@ import { v4 } from 'uuid'
 
 const MenuItems = ({ menuItems }) => (
   <div>
-    <ul>
+    <ul classNames="menu-items">
       {menuItems.map(menuItem => (
-        <li key={v4()}>
-          <div>
-            {menuItem.name} - {menuItem.price}
-            <br />
-            <cite> – {menuItem.description}</cite>
-            <br />
-          </div>
+        <li key={v4()} classNames="item">
+          <label className="title">{menuItem.name}</label>
+          <span className="price">{menuItem.price}</span>
+          <p className="description">{menuItem.description}</p>
         </li>
       ))}
     </ul>
