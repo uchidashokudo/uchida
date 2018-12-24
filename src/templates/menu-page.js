@@ -18,19 +18,24 @@ export const MenuPageTemplate = ({
               <div
                 className="full-width-image-container margin-top-0"
                 style={{
+                  marginBottom: '1rem',
                   backgroundImage: `url(${
                     !!image.childImageSharp
                       ? image.childImageSharp.fluid.src
                       : image
-                  })`,
+                    })`,
                 }}
               >
                 <h2 className="menu has-text-weight-bold is-size-1" >
                   {title}
                 </h2>
               </div>
-              <h1>{menu.heading}</h1>
-                <p>{menu.description}</p>
+                <p className="center"
+                  style={{
+                    fontSize: "1.5rem",
+                    margin: '2.8rem 0 3.4rem 0',
+                  }}
+                >{menu.description}</p>
                 <MenuCategories categories={menu.menu_category} />
             </div>
           </div>
