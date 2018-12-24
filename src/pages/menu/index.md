@@ -1,7 +1,7 @@
 ---
 templateKey: menu-page
 title: Menu
-image: /img/fish_jumbotron.jpg
+image: /img/salmon_jumbotron.jpg
 menu:
   description: Our food is prepared daily and sold as supplies last.
   heading: Menu
