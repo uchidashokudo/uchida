@@ -3,6 +3,8 @@
 $logo-color-1: #1a3f1d // green
 $logo-color-2: #032741 // blue
 
+$black: rgb(54, 54, 54)
+
 $primary: $logo-color-1
 $primary-invert: $logo-color-2
 $secondary: $logo-color-2;
@@ -56,8 +58,49 @@ $body-color: #333
 
 @import "~bulma"
 
+.columns:not(:last-child)
+  margin-bottom: 0
+
+.column
+  // padding-left: 0
+
 h2.menu
   color: white
   box-shadow: 0.5rem 0 0 $secondary, -0.5rem 0 0 $secondary
   background-color: $secondary
   padding: 1rem
+
+.menu-section
+  margin: 2rem 0 2rem 0
+
+
+.menu-section .title
+  border-top: 5px solid $black
+  padding: 1rem 0 1rem 0
+  font-size: 3.5rem
+
+.menu-section .description
+
+ul.menu-items
+  list-style-type: none
+  margin: 0
+
+ul.menu-items .item
+  margin: 1.5rem 0 0 0
+
+.menu-items .item .title
+  border: none
+  margin: 0
+  font-size: 2rem
+
+.menu-items .item .description
+  padding-left: 0
+
+.menu-items .item .price
+  font-size: 2rem
+  text-align: right
+
+@media screen and (max-width: 475px)
+ .menu-items .item .title, .menu-items .item .price
+   font-size: 1.5rem
+

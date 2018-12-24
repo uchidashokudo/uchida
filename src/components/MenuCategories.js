@@ -7,8 +7,14 @@ const MenuCategories = ({ categories }) => (
   <div>
       {categories.map(category => (
         <div key={v4()} className='menu-section'>
-          <label className="title">{category.heading}</label>
-          <p>{category.description}</p>
+          <div className="columns">
+            <label className="title column is-12">
+              {category.heading}
+            </label>
+          </div>
+          <div className="columns">
+            <p className="description column is-12">{category.description}</p>
+          </div>
           <MenuItems menuItems={category.items} />
         </div>
       ))}

@@ -4,17 +4,31 @@ import { v4 } from 'uuid'
 
 const MenuItems = ({ menuItems }) => (
   <div>
-    <ul classNames="menu-items">
+    <ul className="menu-items">
       {menuItems.map(menuItem => (
-        <li key={v4()} classNames="item">
-          <label className="title">{menuItem.name}</label>
-          <span className="price">{menuItem.price}</span>
-          <p className="description">{menuItem.description}</p>
+        <li key={v4()} className="item">
+          <div className="columns">
+            <div className="title column is-12">
+              <label>{menuItem.name}</label>
+              <span
+                style={{
+                  float: 'right'
+                }}
+              >
+                {menuItem.price}
+              </span>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="description column is-4">
+              <p className="">{menuItem.description}</p>
+            </div>
+          </div>
         </li>
       ))}
     </ul>
   </div>
-)
+);
 
 MenuItems.propTypes = {
   menuItems: PropTypes.arrayOf(
