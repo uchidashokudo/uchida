@@ -1,7 +1,12 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
-export const HomePageTemplate = ({}) => {
+const HomePage = ({}) => {
   return (
-    <div></div>
+    <Layout>
+      <div></div>
+    </Layout>
   )
 }
+
+export default HomePage
