@@ -100,7 +100,53 @@ ul.menu-items .item
   font-size: 2rem
   text-align: right
 
+#footer
+  height: 140px
+  display: block
+  margin: auto
+  padding-top: 2em
+  padding-bottom: 2em
+  max-width: 960px
+  font-size: 0.8rem
+  text-align: center
+  text-transform: uppercase
+
+#footer ul
+  display: inline-block
+  vertical-align: top
+  margin: 0 2em 0 2em
+  text-align: left
+  max-width: 200px
+
+#footer li.title
+  font-weight: bold
+  margin-bottom: .3rem
+
+#footer li
+  list-style-type: none
+  font-size: 0.8rem
+  margin: 0
+
+#footer a
+  color: white
+  text-decoration: none
+
+#footer a:hover, .email:hover
+  text-decoration: underline
+
+#footer .address
+  max-width: 150px
+
 @media screen and (max-width: 475px)
- .menu-items .item .title, .menu-items .item .price
+  .menu-items .item .title, .menu-items .item .price
    font-size: 1.5rem
+  #footer
+    text-align: center
+  #footer ul
+    // display: block
+    margin: auto
+    width: 40%
+    padding: 2rem 5% 2rem 5%
+  #footer li
+    font-size: 1.3rem
 

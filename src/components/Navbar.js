@@ -30,7 +30,7 @@ const Navbar = class extends React.Component {
  render() {
     return <div>
       <div id="mainLogo" className="container center">
-        <Link to="/" title="Logo">
+        <Link to="/" title="Home">
           <img src={logo} alt="Uchida" />
         </Link>
       </div>
@@ -65,12 +65,6 @@ const Navbar = class extends React.Component {
           </div>
         </div>
       </nav>
-      <div className="container center">
-        <ul>
-          <li>Monday - Friday</li>
-          <li>11am - 2pm</li>
-        </ul>
-      </div>
     </div>;
   }
 }
