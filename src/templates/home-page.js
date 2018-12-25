@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const AboutPageTemplate = ({}) => {
+export const HomePageTemplate = ({}) => {
   return (
     <div></div>
   )
