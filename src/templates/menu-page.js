@@ -91,7 +91,6 @@ export const menuPageQuery = graphql`
             }
           }
         }
-        heading
         description
         menu {
           heading

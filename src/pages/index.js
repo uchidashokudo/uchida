@@ -1,6 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import image1 from '../../static/img/donburi.jpg'
 import image2 from '../../static/img/fish.jpg'
@@ -14,9 +12,9 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="content">
               <div>
-                <img className="homeImg" src={image1}/>
-                <img className="homeImg" src={image2} />
-                <img className="homeImg" src={image3} />
+                <img className="homeImg" alt="uchida image 1" src={image1}/>
+                <img className="homeImg" alt="uchida image 2" src={image2} />
+                <img className="homeImg" alt="uchida image 3" src={image3} />
               </div>
             </div>
           </div>
