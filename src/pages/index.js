@@ -12,9 +12,9 @@ export default class IndexPage extends React.Component {
           <div className="container">
             <div className="content">
               <div>
-                <img className="homeImg" alt="uchida image 1" src={image1}/>
-                <img className="homeImg" alt="uchida image 2" src={image2} />
-                <img className="homeImg" alt="uchida image 3" src={image3} />
+                <img className="homeImg" alt="uchida 1" src={image1}/>
+                <img className="homeImg" alt="uchida 2" src={image2} />
+                <img className="homeImg" alt="uchida 3" src={image3} />
               </div>
             </div>
           </div>

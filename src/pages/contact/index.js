@@ -74,6 +74,7 @@ export default class Index extends React.Component {
                       style={{
                         border: 0
                       }}
+                      title="Uchida Map"
                       allowfullscreen></iframe>
                   </div>
                 </div>
