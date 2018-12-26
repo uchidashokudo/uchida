@@ -39,47 +39,47 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-        <h1>Contact</h1>
-        <form
-          name="contact"
-          method="post"
-          action="/contact/thanks/"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-          onSubmit={this.handleSubmit}
-        >
-          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="contact" />
-          <div hidden>
-            <label>
-              Don’t fill this out:{" "}
-              <input name="bot-field" onChange={this.handleChange} />
-            </label>
-          </div>
-          <div className="field">
-            <label className="label" htmlFor={"name"} >Your name</label>
-            <div className="control">
-              <input className="input" type={"text"} name={"name"} onChange={this.handleChange} id={"name"} required={true} />
-            </div>
-          </div>
-          <div className="field">
-            <label className="label" htmlFor={"email"}>Email</label>
-              <div className="control">
-                <input className="input" type={"email"} name={"email"} onChange={this.handleChange} id={"email"} required={true} />
+              <div className="columns">
+                <div className="column is-5  is-offset-1">
+                  <div className="content">
+                    <ul id="contact-info">
+                      <li>
+                        <h2>Address</h2>
+                        633 Courtney St&nbsp;<br/>
+                        Victoria, BC&nbsp;<br/>
+                        V8W 1C1
+                      </li>
+                      <li>
+                        <h2>Hours</h2>
+                        Monday - Friday<br/>
+                        11am - 2pm<br/>
+                      </li>
+                      <li>
+                        <h2>Phone</h2>
+                        250 388 7383
+                      </li>
+                      <li>
+                        <h2>Email</h2>
+                        email at email.com
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="column is-6">
+                  <div className="content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.736788244608!2d-123.36878348454215!3d48.423197339203824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f74906fda7ebd%3A0xbc506bda1401f2ab!2sUchida+Eatery!5e0!3m2!1sen!2sca!4v1545850922626"
+                      width="100%"
+                      height="450"
+                      frameborder="0"
+                      style={{
+                        border: 0
+                      }}
+                      allowfullscreen></iframe>
+                  </div>
+                </div>
               </div>
-          </div>
-          <div className="field">
-            <label className="label" htmlFor={"message"}>Message</label>
-            <div className="control">
-              <textarea className="textarea" name={"message"} onChange={this.handleChange} id={"message"} required={true} />
             </div>
           </div>
-          <div className="field">
-            <button className="button is-link" type="submit">Send</button>
-          </div>
-        </form>
-        </div>
-        </div>
         </section>
       </Layout>
     );
