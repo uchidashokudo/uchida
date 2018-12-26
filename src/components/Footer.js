@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
 
-const Footer = class extends React.Component {
- render() {
-    return <div id="footer">
+const Footer = ({ email, instagram, facebook }) => {
+  return (
+    <div id="footer">
       <ul>
         <li className="title">Address</li>
         <li className="address">
@@ -28,20 +28,23 @@ const Footer = class extends React.Component {
           Email
         </li>
         <li>
-          Facebook
+          <a href={facebook} target="_blank" >Facebook</a>
         </li>
       </ul>
       <ul >
         <li className="title">Social</li>
         <li>
-          Facebook
-        </li>
-        <li>
-          Instagram
+          <a href={instagram} target="_blank" >Instagram</a>
         </li>
       </ul>
-    </div>;
-  }
+    </div>
+  )
 }
 
 export default Footer
+
+Footer.propTypes = {
+  email: PropTypes.string,
+  facebook: PropTypes.string,
+  instagram: PropTypes.string,
+}

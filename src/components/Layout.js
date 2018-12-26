@@ -14,6 +14,9 @@ const TemplateWrapper = ({ children }) => (
             siteMetadata {
               title,
               description,
+              email,
+              instagram,
+              facebook
             }
           }
         }
@@ -39,7 +42,11 @@ const TemplateWrapper = ({ children }) => (
         </Helmet>
         <Navbar />
         <div>{children}</div>
-        <Footer />
+        <Footer
+          email={data.site.siteMetadata.email}
+          instagram={data.site.siteMetadata.instagram}
+          facebook={data.site.siteMetadata.facebook}
+        />
       </div>
     )}
   />
