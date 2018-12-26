@@ -23,6 +23,7 @@ const Footer = class extends React.Component {
       </ul>
       <ul>
         <li className="title">Contact</li>
+        <li><a href="tel:250-388-7383">250 388 7383</a></li>
         <li>
           Email
         </li>

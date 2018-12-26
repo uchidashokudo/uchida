@@ -56,7 +56,7 @@ export default class Index extends React.Component {
                       </li>
                       <li>
                         <h2>Phone</h2>
-                        250 388 7383
+                        <a href="tel:250-388-7383">250 388 7383</a>
                       </li>
                       <li>
                         <h2>Email</h2>
