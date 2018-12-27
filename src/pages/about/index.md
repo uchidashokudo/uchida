@@ -2,7 +2,7 @@
 templateKey: about-page
 title: About Uchida
 image: /img/uchida.jpg
-title2: Locally sourced
+title2: Organic and locally sourced
 body2: >-
   We are proud to receive Japanese vegetables from Uminami farms, located in
   Metchosin.
