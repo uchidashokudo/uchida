@@ -32,6 +32,8 @@ collections:
           - {label: Image,  name: image, widget: image}
           - {label: "Body 2", name: "body2", widget: "markdown"}
           - {label: Image 2,  name: image2, widget: image}
+          - {label: Image Bottom 1,  name: imageBottom1, widget: image}
+          - {label: Image Bottom 2,  name: imageBottom2, widget: image}
       - file: "src/pages/menu/index.md"
         label: "Menu Page"
         name: "menu"
