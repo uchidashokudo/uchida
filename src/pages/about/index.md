@@ -1,12 +1,14 @@
 ---
 templateKey: about-page
 title: About our values
-image: /img/vegetables.jpg
+image: /img/uchida.jpg
 body2: >-
-  We are proud to source our Japanese vegetables are from Uminami farms, located
-  in Metchosin.
+  We are proud to receive Japanese vegetables from Uminami farms, located in
+  Metchosin.
 image2: /img/vegetables.jpg
+imageBottom1: /img/uminami1.jpg
+imageBottom2: /img/uminami2.jpg
 ---
 ### 
 
-### Opening in \_\_\_\__ Uchida strives to .... As much as we can, we use local ingredients.
+### Opening in 2012, Uchida Shokudo/Eatery servers authentic Japanese cuisine with an emphasis on locally sourced ingredients.
