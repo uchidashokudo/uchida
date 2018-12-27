@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-title: About our values
+title: About Uchida
 image: /img/uchida.jpg
 title2: Locally sourced
 body2: >-
