@@ -4,8 +4,8 @@ title: About Uchida
 image: /img/uchida.jpg
 title2: Locally sourced
 body2: >-
-  We are proud to receive Japanese vegetables from [Uminami
-  farms](https://uminamifarm.wordpress.com/), located in Metchosin.
+  We are proud to receive Japanese vegetables from Uminami farms, located in
+  Metchosin.
 image2: /img/vegetables.jpg
 imageBottom1: /img/uminami1.jpg
 imageBottom2: /img/uminami2.jpg
