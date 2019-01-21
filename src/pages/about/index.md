@@ -10,7 +10,7 @@ body2: >-
 
   Notably, we are proud to receive vegetables from Uminami farms, located in
   Metchosin.
-image2: /img/img_6655.jpg
+image2: /img/49092849_2013488988768581_8104525802047012864_n.jpg
 imageBottom1: /img/uminami1.jpg
 imageBottom2: /img/uminami2.jpg
 ---
