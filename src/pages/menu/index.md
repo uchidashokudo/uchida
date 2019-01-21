@@ -16,7 +16,7 @@ menu:
         - name: Salmon Don
           price: '11.50'
         - name: Chicken Teriyaki Don
-          price: '11.50'
+          price: '11'
     - heading: Sides
       items:
         - description: Every day we feature one or two vegetable dishes.
