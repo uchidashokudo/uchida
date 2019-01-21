@@ -4,7 +4,11 @@ title: About Uchida
 image: /img/uchida.jpg
 title2: Organic and locally sourced
 body2: >-
-  We are proud to receive Japanese vegetables from Uminami farms, located in
+  ## As much as we can our ingredients -- meat, fish, and vegetables, are
+  locally  produced. 
+
+
+  ## Notably, we are proud to receive vegetables from Uminami farms, located in
   Metchosin.
 image2: /img/vegetables.jpg
 imageBottom1: /img/uminami1.jpg
