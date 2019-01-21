@@ -34,7 +34,7 @@ menu:
           price: '3.50'
         - description: Salmon or Mackerel.
           name: Hako Sushi (Full - 6 pieces)
-          price: '3.50'
+          price: '7'
     - heading: Beverages
       items:
         - description: Hoji Cha from Jagasilk.
