@@ -62,7 +62,13 @@ export const AboutPageTemplate = ({ title, content, title2, content2, contentCom
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title2}
               </h2>
-              <PageContent className="content" content={content2} />
+              <div className="content" style={{
+                whiteSpace: 'pre-wrap'
+              }}>
+                <h3>
+                  {content2}
+                </h3>
+              </div>
             </div>
           </div>
         </div>
