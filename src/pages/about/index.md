@@ -4,16 +4,16 @@ title: About Uchida
 image: /img/uchida.jpg
 title2: Organic and locally sourced
 body2: >-
-  As much as we can our ingredients — meat, fish, and vegetables, are locally 
+  As much as we can our ingredients — meat, fish, and vegetables, are locally
   produced.
 
 
   Notably, we are proud to receive vegetables from Uminami farms, located in
   Metchosin.
-image2: /img/49092849_2013488988768581_8104525802047012864_n.jpg
+image2: /img/vegetables.jpg
 imageBottom1: /img/uminami1.jpg
 imageBottom2: /img/uminami2.jpg
 ---
-### 
+###
 
 ### Opening in 2012, Uchida Shokudo/Eatery servers authentic Japanese cuisine with an emphasis on locally sourced ingredients.
