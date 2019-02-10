@@ -4,7 +4,7 @@ title: About Uchida
 image: /img/uchida.jpg
 title2: Organic and locally sourced
 body2: >-
-  As much as we can our ingredients — meat, fish, and vegetables, are locally
+  As much as possible, our ingredients —meat, fish, and vegetables— are locally
   produced.
 
 
