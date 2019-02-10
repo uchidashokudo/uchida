@@ -27,12 +27,12 @@ const Footer = ({ email, instagram, facebook }) => {
         <li>
           Email
         </li>
-        <li>
-          <a href={facebook} target="_blank" rel="noopener noreferrer" >Facebook</a>
-        </li>
       </ul>
       <ul >
         <li className="title">Social</li>
+        <li>
+          <a href={facebook} target="_blank" rel="noopener noreferrer" >Facebook</a>
+        </li>
         <li>
           <a href={instagram} target="_blank" rel="noopener noreferrer" >Instagram</a>
         </li>
