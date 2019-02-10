@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import image1 from '../../static/img/donburi.jpg'
+import image1 from '../../static/img/donburi2.jpg'
 import image2 from '../../static/img/fish.jpg'
-import image3 from '../../static/img/dish.jpg'
+import image3 from '../../static/img/plants.jpg'
 
 export default class IndexPage extends React.Component {
   render() {
