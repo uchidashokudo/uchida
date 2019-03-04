@@ -16,7 +16,7 @@ menu:
         - name: Salmon Don
           price: '11.50'
         - name: Chicken Teriyaki Don
-          price: '11'
+          price: '11.00'
     - heading: Sides
       items:
         - description: Every day we feature one or two vegetable dishes.
@@ -34,7 +34,7 @@ menu:
           price: '3.50'
         - description: Salmon or Mackerel.
           name: Hako Sushi (Full - 6 pieces)
-          price: '7'
+          price: '7.00'
     - heading: Beverages
       items:
         - description: Hoji Cha from Jagasilk.
