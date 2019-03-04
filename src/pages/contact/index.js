@@ -47,7 +47,7 @@ export default class Index extends React.Component {
                         <h2>Address</h2>
                         633 Courtney St&nbsp;<br/>
                         Victoria, BC&nbsp;<br/>
-                        V8W 1C1
+                        V8W 1B9
                       </li>
                       <li>
                         <h2>Hours</h2>

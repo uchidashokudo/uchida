@@ -9,7 +9,7 @@ const Footer = ({ email, instagram, facebook }) => {
         <li className="address">
           633 Courtney St&nbsp;<br/>
           Victoria, BC&nbsp;<br/>
-          V8W 1C1
+          V8W 1B9
         </li>
       </ul>
       <ul>
