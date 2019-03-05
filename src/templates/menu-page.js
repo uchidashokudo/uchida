@@ -106,11 +106,11 @@ export const menuPageQuery = graphql`
           }
         }
         description
-        description2
-        description3
         menu {
           heading
           description
+          description2
+          description3
           menu_category {
             heading
             description

@@ -5,6 +5,7 @@ image: /img/salmon_jumbotron.jpg
 menu:
   description: Our food is prepared daily and sold as supplies last.
   description2: Our food is prepared daily and sold as supplies last.
+  description3: Our food is prepared daily and sold as supplies last.
   heading: Menu
   menu_category:
     - description: Served on a bowl of rice.
