@@ -55,12 +55,15 @@ export default class Index extends React.Component {
                         11am - 2pm<br/>
                       </li>
                       <li>
+                        Closed on statutory holidays.
+                      </li>
+                      <li>
                         <h2>Phone</h2>
                         <a href="tel:250-388-7383">250 388 7383</a>
                       </li>
                       <li>
                         <h2>Email</h2>
-                        email at email.com
+                        <a href="mailto:uchidavictoria@gmail.com">uchidavictoria@gmail.ca</a>
                       </li>
                     </ul>
                   </div>
