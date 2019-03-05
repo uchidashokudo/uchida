@@ -49,6 +49,8 @@ collections:
               fields: [
                 {label: Heading, name: heading, widget: string},
                 {label: Description, name: description, widget: string},
+                {label: "Description #2", name: description2, widget: string},
+                {label: "Footer Description", name: description3, widget: string},
                 {
                   label: "Menu Category",
                   name: menu_category,

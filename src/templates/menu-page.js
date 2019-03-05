@@ -36,7 +36,19 @@ export const MenuPageTemplate = ({
                     margin: '2.8rem 0 3.4rem 0',
                   }}
                 >{menu.description}</p>
+                <p className="center"
+                  style={{
+                    fontSize: "1.5rem",
+                    margin: '2.8rem 0 3.4rem 0',
+                  }}
+                >{menu.description2}</p>
                 <MenuCategories categories={menu.menu_category} />
+                <p className="center"
+                  style={{
+                    fontSize: "1.5rem",
+                    margin: '2.8rem 0 3.4rem 0',
+                  }}
+                >{menu.description}</p>
             </div>
           </div>
         </div>
@@ -51,6 +63,8 @@ MenuPageTemplate.propTypes = {
   menu: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
+    description2: PropTypes.string,
+    description3: PropTypes.string,
     menuCategory: PropTypes.array,
   }),
 }
@@ -92,6 +106,8 @@ export const menuPageQuery = graphql`
           }
         }
         description
+        description2
+        description3
         menu {
           heading
           description
