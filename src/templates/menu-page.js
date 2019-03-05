@@ -8,6 +8,8 @@ export const MenuPageTemplate = ({
   image,
   title,
   menu,
+  instagram,
+  facebook
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -41,7 +43,7 @@ export const MenuPageTemplate = ({
                     fontSize: "1.5rem",
                     margin: '2.8rem 0 3.4rem 0',
                   }}
-                >{menu.description2}</p>
+                >Daily specials are posted on <a href={instagram} target="_blank" rel="noopener noreferrer" >Instagram</a> and <a href={facebook} target="_blank" rel="noopener noreferrer" >Facebook</a>.</p>
                 <MenuCategories categories={menu.menu_category} />
                 <p className="center"
                   style={{
@@ -78,6 +80,8 @@ const MenuPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         menu={frontmatter.menu}
+        instagram={"https://www.instagram.com/uchidaeatery/"}
+        facebook={"https://www.facebook.com/UchidaEatery/"}
       />
     </Layout>
   )
