@@ -31,10 +31,10 @@ menu:
         - description: Brown or White.
           name: Organic Rice
           price: '2.50'
-        - description: Salmon or Mackerel.
+        - description: Box sushi. Salmon or Mackerel.
           name: Hako Sushi (Half - 3 pieces)
           price: '3.50'
-        - description: Salmon or Mackerel.
+        - description: Box sushi. Salmon or Mackerel.
           name: Hako Sushi (Full - 6 pieces)
           price: '7.00'
     - heading: Beverages
