@@ -4,7 +4,7 @@ title: Menu
 image: /img/salmon_jumbotron.jpg
 menu:
   description: Our food is prepared daily and sold as supplies last.
-  description2: Our food is prepared daily and sold as supplies last.
+  description2: '[facebook](google.com) <a href="tihs">and that</a>'
   description3: Our food is prepared daily and sold as supplies last.
   heading: Menu
   menu_category:
