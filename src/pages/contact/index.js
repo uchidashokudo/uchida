@@ -55,7 +55,7 @@ export default class Index extends React.Component {
                         11am - 2pm<br/>
                       </li>
                       <li>
-                        Closed on statutory holidays.
+                        Closed on weekends and statutory holidays.
                       </li>
                       <li>
                         <h2>Phone</h2>
