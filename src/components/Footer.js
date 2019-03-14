@@ -25,7 +25,7 @@ const Footer = ({ email, instagram, facebook }) => {
         <li className="title">Contact</li>
         <li><a href="tel:250-388-7383">250 388 7383</a></li>
         <li>
-          Email
+          <a href={"mailto:" + email}>Email</a>
         </li>
       </ul>
       <ul >
