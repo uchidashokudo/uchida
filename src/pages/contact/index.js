@@ -63,7 +63,7 @@ export default class Index extends React.Component {
                       </li>
                       <li>
                         <h2>Email</h2>
-                        <a href="mailto:uchidavictoria@gmail.com">uchidavictoria@gmail.ca</a>
+                        <a href="mailto:uchidavictoria@gmail.com">uchidavictoria@gmail.com</a>
                       </li>
                     </ul>
                   </div>
