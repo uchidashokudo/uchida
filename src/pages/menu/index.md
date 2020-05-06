@@ -27,9 +27,9 @@ menu:
       items:
         - description: Every day we feature one or two vegetable dishes.
           name: Today's Vegetable Dish
-          price: '4.25'
+          price: '4.75'
         - name: Grilled Mackerel
-          price: '7.50'
+          price: '8.00'
         - name: Chicken Chasu
           price: '6.00'
         - description: Brown or White (polished from brown rice in our kitchen).
@@ -48,9 +48,12 @@ menu:
       items:
         - description: Hoji Cha from Jagasilk.
           name: Hoji Cha (Roasted Green Tea)
-          price: '1.50'
+          price: '1.75'
         - description: Jun kombucha from Jagasilk.
           name: Kombucha
-          price: '6.00'
+          price: '5.50'
+        - description: Hoji Cha tea leaves from Jagasilk.
+          name: Hoji Cha tea leaves (40g).
+          price: '9.50'
 ---
 
