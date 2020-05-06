@@ -32,7 +32,7 @@ const Footer = ({ email, instagram, facebook }) => {
         <li style={{paddingTop: '10px', fontSize: '0.65rem'}}>
           (Hours adjusted
         </li>
-        <li style={{fontSize: '0.65rem'}}>
+        <li style={{paddingBottom: '10px', fontSize: '0.65rem'}}>
           due to COVID-19)
         </li>
       </ul>
