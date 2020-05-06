@@ -20,7 +20,7 @@ const MenuItems = ({ menuItems }) => (
             </div>
           </div>
           <div className="columns">
-            <div className="description column is-4">
+            <div className="description column is-12">
               <p className="">{menuItem.description}</p>
             </div>
           </div>
