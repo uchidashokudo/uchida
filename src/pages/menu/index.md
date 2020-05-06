@@ -30,7 +30,7 @@ menu:
           price: '4.75'
         - description: We feature a number of daily side dishes such as grilled local rockfish collar, spicy chicken wings, roasted chicken breast, etc..
           name: Limited Daily Side Dishes
-          price: 'varies per items'
+          price: '(price varies)'
         - name: Grilled Mackerel
           price: '8.00'
         - description: Brown or White (polished from brown rice in our kitchen).
