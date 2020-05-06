@@ -28,7 +28,7 @@ menu:
         - description: Every day we feature one or two vegetable dishes.
           name: Today's Vegetable Dish
           price: '4.75'
-        - description: We feature a number of daily side dishes such as grilled local rockfish collar, spicy chicken wings, roasted chicken breast, etc..
+        - description: We feature a number of daily side dishes such as grilled local rockfish collar, spicy chicken wings, roasted chicken breast, neck, tail, etc..
           name: Limited Daily Side Dishes
           price: '(price varies)'
         - name: Grilled Mackerel
