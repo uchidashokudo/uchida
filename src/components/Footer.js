@@ -24,7 +24,7 @@ const Footer = ({ email, instagram, facebook }) => {
           8:30am - 11am
         </li>
         <li style={{paddingTop: '10px'}}>
-          Pickup up:
+          Pick up:
         </li>
         <li>
           11am - 2pm
