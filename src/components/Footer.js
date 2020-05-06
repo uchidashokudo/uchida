@@ -15,10 +15,25 @@ const Footer = ({ email, instagram, facebook }) => {
       <ul>
         <li className="title">Hours</li>
         <li>
-          Mon. - Fri.
+          Tues. - Fri.
+        </li>
+        <li style={{paddingTop: '10px'}}>
+          Taking orders:
+        </li>
+        <li>
+          8:30am - 11am
+        </li>
+        <li style={{paddingTop: '10px'}}>
+          Pickup up:
         </li>
         <li>
           11am - 2pm
+        </li>
+        <li style={{paddingTop: '10px', fontSize: '0.65rem'}}>
+          (Hours adjusted
+        </li>
+        <li style={{fontSize: '0.65rem'}}>
+          due to COVID-19)
         </li>
       </ul>
       <ul>
