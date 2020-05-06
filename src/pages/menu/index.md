@@ -28,10 +28,11 @@ menu:
         - description: Every day we feature one or two vegetable dishes.
           name: Today's Vegetable Dish
           price: '4.75'
+        - description: We feature a number of daily side dishes such as grilled local rockfish collar, spicy chicken wings, roasted chicken breast, etc..
+          name: Limited Daily Side Dishes
+          price: 'varies per items'
         - name: Grilled Mackerel
           price: '8.00'
-        - name: Chicken Chasu
-          price: '6.00'
         - description: Brown or White (polished from brown rice in our kitchen).
           name: Organic Rice
           price: '2.50'
@@ -40,10 +41,10 @@ menu:
           price: '2.50'
         - description: Box sushi. Salmon or Mackerel.
           name: Hako Sushi (Half - 3 pieces)
-          price: '3.50'
+          price: '4.00'
         - description: Box sushi. Salmon or Mackerel.
           name: Hako Sushi (Full - 6 pieces)
-          price: '7.00'
+          price: '8.00'
     - heading: Beverages
       items:
         - description: Hoji Cha from Jagasilk.
