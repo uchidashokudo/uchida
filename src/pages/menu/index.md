@@ -54,7 +54,7 @@ menu:
           name: Kombucha
           price: '5.50'
         - description: Hoji Cha tea leaves from Jagasilk.
-          name: Hoji Cha tea leaves (40g).
+          name: Hoji Cha tea leaves (40g)
           price: '9.50'
 ---
 
