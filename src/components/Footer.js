@@ -21,13 +21,13 @@ const Footer = ({ email, instagram, facebook }) => {
           Taking orders:
         </li>
         <li>
-          8:30am - 11am
+          9:00am - 11am
         </li>
         <li style={{paddingTop: '10px'}}>
           Pick up:
         </li>
         <li>
-          11am - 2pm
+          11am - 1:30pm
         </li>
         <li style={{paddingTop: '10px', fontSize: '0.65rem'}}>
           (Hours adjusted

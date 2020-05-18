@@ -54,9 +54,9 @@ export default class Index extends React.Component {
                         <p style={{textDecoration: 'underline'}}>Due to COVID-19 our hours have been adjusted.</p>
                         Tuesday - Friday<br/><br/>
                         Taking orders between:<br/>
-                        8:30am - 11:00am<br/><br/>
+                        9:00am - 11:00am<br/><br/>
                         Pick up between:<br/>
-                        11:00am - 2:00pm<br/>
+                        11:00am - 1:30pm<br/>
                       </li>
                       <li>
                         Closed on weekends and statutory holidays.

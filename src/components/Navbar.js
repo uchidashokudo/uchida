@@ -31,7 +31,7 @@ const Navbar = class extends React.Component {
     return <div>
       <div id="mainLogo" className="container center">
         <div class="notice">
-          Notice: We're open for takeout! Uchida Eatery is open for lunch takeout (Tue. - Fri.) starting Thursday, May 7th.
+          Notice: We're open for takeout! Uchida Eatery is open for lunch takeout (Tue. - Fri.)
         </div>
         <Link to="/" title="Home">
           <img src={logo} alt="Uchida" />
