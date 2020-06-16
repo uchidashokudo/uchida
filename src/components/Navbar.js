@@ -31,7 +31,7 @@ const Navbar = class extends React.Component {
     return <div>
       <div id="mainLogo" className="container center">
         <div class="notice">
-          Notice: We're open for takeout! Uchida Eatery is open for lunch takeout (Tue. - Fri.)
+          Notice: Uchida Eatery is temporarily closed with plans to open with a takeout dinner! <a href="https://www.facebook.com/UchidaEatery/photos/a.332734646863035/2009900782479738/?type=3&__xts__%5B0%5D=68.ARAamuGEXTc_MFPpI49V5JIsenLzCUNLTo1R025mMrLouBpnNd6m0pvvp8HjeaEEQT1zZ5fnf-v93_ykp6nDBEO_aLBBY0qjk4ImRFaC7wmyE-lPNrWoxTrHqXVApSm74pOxPHb98wB7RLxxaD3BH0cnFRHbcMB0OOXXYZERP4KztSEPkSS1HUSgoZFckwUMXC-iOLORvDidVQ1ARRiPoNmdlsaQRzFaI82VIY9qnXhreyHp1BX9uzkvAwuh9ZIoOEFkbuhOKDa7ZFmzcdrquyUMu6Zn4qndIzpEA5O2nrgnzhw8Rgtw5B00LP1R5cOzJZOogxUEVWAM5IY4Sl3f6PYwhw&__tn__=-R" target="_blank">Read the announcement here.</a>
         </div>
         <Link to="/" title="Home">
           <img src={logo} alt="Uchida" />
@@ -52,9 +52,9 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/about">
                 About
                </Link>
-              <Link className="navbar-item" to="/menu">
-                Menu
-               </Link>
+              {/* <Link className="navbar-item" to="/menu"> */}
+              {/*   Menu */}
+              {/*  </Link> */}
               <Link className="navbar-item" to="/contact">
                 Contact
                </Link>
