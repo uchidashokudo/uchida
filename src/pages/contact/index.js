@@ -51,15 +51,7 @@ export default class Index extends React.Component {
                       </li>
                       <li>
                         <h2>Hours</h2>
-                        <p style={{textDecoration: 'underline'}}>Due to COVID-19 our hours have been adjusted.</p>
-                        Tuesday - Friday<br/><br/>
-                        Taking orders between:<br/>
-                        9:00am - 11:00am<br/><br/>
-                        Pick up between:<br/>
-                        11:00am - 1:30pm<br/>
-                      </li>
-                      <li>
-                        Closed on weekends and statutory holidays.
+                        <a href="https://www.facebook.com/UchidaEatery/photos/a.332734646863035/2009900782479738/?type=3&theater" target="_blank">Temporarily closed</a>
                       </li>
                       <li>
                         <h2>Phone</h2>

@@ -15,25 +15,7 @@ const Footer = ({ email, instagram, facebook }) => {
       <ul>
         <li className="title">Hours</li>
         <li>
-          Tues. - Fri.
-        </li>
-        <li style={{paddingTop: '10px'}}>
-          Taking orders:
-        </li>
-        <li>
-          9:00am - 11am
-        </li>
-        <li style={{paddingTop: '10px'}}>
-          Pick up:
-        </li>
-        <li>
-          11am - 1:30pm
-        </li>
-        <li style={{paddingTop: '10px', fontSize: '0.65rem'}}>
-          (Hours adjusted
-        </li>
-        <li style={{paddingBottom: '10px', fontSize: '0.65rem'}}>
-          due to COVID-19)
+          <a href="https://www.facebook.com/UchidaEatery/photos/a.332734646863035/2009900782479738/?type=3&theater" target="_blank">Temporarily closed</a>
         </li>
       </ul>
       <ul>
