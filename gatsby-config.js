@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Uchida Shokudo',
-    description: 'Authentic local Japanese cuisine. Open for lunch on weekdays.',
+    title: 'Uchida Eatery',
+    description: 'Authentic local Japanese cuisine.',
     instagram: 'https://www.instagram.com/uchidaeatery/',
     facebook: 'https://www.facebook.com/UchidaEatery/',
     email: 'uchidavictoria@gmail.com'

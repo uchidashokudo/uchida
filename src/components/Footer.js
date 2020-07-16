@@ -14,8 +14,20 @@ const Footer = ({ email, instagram, facebook }) => {
       </ul>
       <ul>
         <li className="title">Hours</li>
+        <li style={{ paddingTop: "1rem", paddingBottom: "1rem" }}>
+          Taking orders the night before or on the day.
+        </li>
+        <li className="title">Pick up times</li>
         <li>
-          <a href="https://www.facebook.com/UchidaEatery/photos/a.332734646863035/2009900782479738/?type=3&theater" target="_blank">Temporarily closed</a>
+          <ul>
+            <li><b>Mon.</b> Closed</li>
+            <li><b>Tue.</b> Closed</li>
+            <li><b>Wed.</b> 4pm - 6pm</li>
+            <li><b>Thu.</b> 4pm - 6pm</li>
+            <li><b>Fri.</b> 4pm - 6pm</li>
+            <li><b>Sat.</b> 4pm - 6pm</li>
+            <li><b>Sun.</b> Closed</li>
+          </ul>
         </li>
       </ul>
       <ul>
@@ -23,6 +35,10 @@ const Footer = ({ email, instagram, facebook }) => {
         <li><a href="tel:250-388-7383">250 388 7383</a></li>
         <li>
           <a href={"mailto:" + email}>Email</a>
+        </li>
+        <li className="title" style={{paddingTop: "12px"}}>Menu</li>
+        <li>
+          <a href="https://uchida-eatery.square.site/" target="_blank">Dinner Menu</a>
         </li>
       </ul>
       <ul >

@@ -148,7 +148,7 @@ ul.menu-items .item
   width: 33.33%
   padding: 2px
 
-#contact-info li
+#contact-info > li
   list-style-type: none
   font-size: 1.3rem
   margin-bottom: 2rem
@@ -165,12 +165,15 @@ ul.menu-items .item
   margin-bottom: 0.2rem
 
 .notice
-  background-color: #E2552D
+  background-color: #4D8406
   color: white
   font-weight: bold
   padding: 0.5rem
   margin: 1rem
   border-radius: 5px
+.notice a
+  color: white
+  text-decoration: underline
 
 @media screen and (max-width: 475px)
   .menu-items .item .title, .menu-items .item .price
@@ -192,3 +195,5 @@ ul.menu-items .item
     padding-left: 0
     padding-right: 0
 
+.map iframe
+  height: 450px;

@@ -51,7 +51,19 @@ export default class Index extends React.Component {
                       </li>
                       <li>
                         <h2>Hours</h2>
-                        <a href="https://www.facebook.com/UchidaEatery/photos/a.332734646863035/2009900782479738/?type=3&theater" target="_blank">Temporarily closed</a>
+                        <li style={{ paddingTop: "1rem", paddingBottom: "1rem" }}>
+                          Taking orders the night before or on the day.
+                        </li>
+                        <h2>Pick up times</h2>
+                        <ul>
+                          <li><b>Mon.</b> Closed</li>
+                          <li><b>Tue.</b> Closed</li>
+                          <li><b>Wed.</b> 4pm - 6pm</li>
+                          <li><b>Thu.</b> 4pm - 6pm</li>
+                          <li><b>Fri.</b> 4pm - 6pm</li>
+                          <li><b>Sat.</b> 4pm - 6pm</li>
+                          <li><b>Sun.</b> Closed</li>
+                        </ul>
                       </li>
                       <li>
                         <h2>Phone</h2>
@@ -65,7 +77,7 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="column is-6">
-                  <div className="content">
+                  <div className="content map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.736788244608!2d-123.36878348454215!3d48.423197339203824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f74906fda7ebd%3A0xbc506bda1401f2ab!2sUchida+Eatery!5e0!3m2!1sen!2sca!4v1545850922626"
                       width="100%"
                       height="450"
