@@ -30,6 +30,9 @@ const Navbar = class extends React.Component {
  render() {
     return <div>
       <div id="mainLogo" className="container center">
+        <div class="notice warn">
+          We will be closed between November 4th - 11th and will REOPEN on November 12th. Thank you for your understanding.
+        </div>
         <div class="notice">
           👋&nbsp;&nbsp;Uchida Eatery is accepting dinner order for pick up! <a href="https://uchida-eatery.square.site/" target="_blank">Check out our new menu.</a>&nbsp;&nbsp;🎉
         </div>
