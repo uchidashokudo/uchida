@@ -31,7 +31,7 @@ const Navbar = class extends React.Component {
     return <div>
       <div id="mainLogo" className="container center">
         <div class="notice">
-          👋&nbsp;&nbsp;Uchida Eatery is accepting dinner order for pick up! <a href="https://uchida-eatery.square.site/" target="_blank">Check out our new menu.</a>&nbsp;&nbsp;🎉
+          👋&nbsp;&nbsp;Uchida Eatery is accepting TAKE-OUT orders for dinner! <a href="https://uchida-eatery.square.site/" target="_blank">Check out our new menu.</a>&nbsp;&nbsp;🎉
         </div>
         <Link to="/" title="Home">
           <img src={logo} alt="Uchida" />
