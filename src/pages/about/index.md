@@ -1,4 +1,4 @@
---
+---
 templateKey: about-page
 title: About Uchida
 image: /img/uchida.jpg
