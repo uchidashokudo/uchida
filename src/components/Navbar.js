@@ -31,7 +31,17 @@ const Navbar = class extends React.Component {
     return <div>
       <div id="mainLogo" className="container center">
         <div class="notice">
-          👋&nbsp;&nbsp;Uchida Eatery is accepting TAKE-OUT orders for dinner! <a href="https://uchida-eatery.square.site/" target="_blank">Check out our new menu.</a>&nbsp;&nbsp;🎉
+          <p>
+            👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders! Open Wednesday - Saturday. Pick up between 11:30am - 5pm.
+          </p>
+          <br/>
+          <p>
+            <a href="https://uchida-eatery.square.site/" target="_blank">Check out our new menu here.</a>&nbsp;&nbsp;🎉
+          </p>
+          <br/>
+          <p style={{fontSize: '0.9rem', fontStyle: 'italic'}}>
+            We aren't able to accept phone-orders and dining-in is not available at this time. We apologize for the inconvenience and appreciate the understanding.
+          </p>
         </div>
         <Link to="/" title="Home">
           <img src={logo} alt="Uchida" />

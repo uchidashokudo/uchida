@@ -22,10 +22,10 @@ const Footer = ({ email, instagram, facebook }) => {
           <ul>
             <li><b>Mon.</b> Closed</li>
             <li><b>Tue.</b> Closed</li>
-            <li><b>Wed.</b> 4pm - 6pm</li>
-            <li><b>Thu.</b> 4pm - 6pm</li>
-            <li><b>Fri.</b> 4pm - 6pm</li>
-            <li><b>Sat.</b> 4pm - 6pm</li>
+            <li><b>Wed.</b> 11pm - 5pm</li>
+            <li><b>Thu.</b> 11pm - 5pm</li>
+            <li><b>Fri.</b> 11pm - 5pm</li>
+            <li><b>Sat.</b> 11pm - 5pm</li>
             <li><b>Sun.</b> Closed</li>
           </ul>
         </li>
