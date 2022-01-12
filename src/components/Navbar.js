@@ -26,19 +26,14 @@ const Navbar = class extends React.Component {
     }
   }
 
-  // <p>
-  //   👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders! Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.
-  // </p>
   render() {
     return (
       <div>
         <div id="mainLogo" className="container center">
           <div class="notice">
-            <p>
-              👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
-            </p>
+            <p>👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!</p>
             <br />
-            <p>December 29, 30, 31: Pick up between 4:00pm - 6:00pm</p>
+            <p>Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.</p>
             <br />
             <p>
               <a href="https://uchida-eatery.square.site/" target="_blank">
@@ -51,12 +46,6 @@ const Navbar = class extends React.Component {
               We aren't able to accept phone-orders and dining-in is not
               available at this time. We apologize for the inconvenience and
               appreciate the understanding.
-            </p>
-          </div>
-          <div class="notice warn">
-            <p>
-              Uchida Eatery will be closed between January 1st - 11th. Have a
-              happy new year and thank you for the continued support!
             </p>
           </div>
           <Link to="/" title="Home">
