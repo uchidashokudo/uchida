@@ -30,28 +30,31 @@ const Navbar = class extends React.Component {
     return (
       <div>
         <div id="mainLogo" className="container center">
-          <div class="notice">
-            <p>👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!</p>
-            <br />
-            <p>Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.</p>
-            <br />
-            <p>
-              <a href="https://uchida-eatery.square.site/" target="_blank">
-                Check out our new menu here.
-              </a>
-              &nbsp;&nbsp;🎉
-            </p>
-            <br />
-            <p style={{ fontSize: "0.9rem", fontStyle: "italic" }}>
-              We aren't able to accept phone-orders and dining-in is not
-              available at this time. We apologize for the inconvenience and
-              appreciate the understanding.
-            </p>
+          <div class="notice warn" >
+            👋&nbsp;&nbsp;Uchida Eatery will be closed Friday and Saturday, reopening on Wednesday the 9th. Sorry for the inconvenience and we look forward to seeing you soon.
           </div>
-          <Link to="/" title="Home">
-            <img src={logo} alt="Uchida" />
-          </Link>
-        </div>
+          {/* <div class="notice"> */}
+          {/*   <p>👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!</p> */}
+          {/*   <br /> */}
+          {/*   <p>Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.</p> */}
+          {/*   <br /> */}
+          {/*   <p> */}
+          {/*     <a href="https://uchida-eatery.square.site/" target="_blank"> */}
+          {/*       Check out our new menu here. */}
+          {/*     </a> */}
+          {/*     &nbsp;&nbsp;🎉 */}
+          {/*   </p> */}
+          {/*   <br /> */}
+          {/*   <p style={{ fontSize: "0.9rem", fontStyle: "italic" }}> */}
+          {/*     We aren't able to accept phone-orders and dining-in is not */}
+          {/*     available at this time. We apologize for the inconvenience and */}
+          {/*     appreciate the understanding. */}
+          {/*   </p> */}
+          {/* </div> */}
+          {/* <Link to="/" title="Home"> */}
+          {/*   <img src={logo} alt="Uchida" /> */}
+          {/* </Link> */}
+        {/* </div> */}
         <nav
           className="navbar is-transparent"
           role="navigation"
