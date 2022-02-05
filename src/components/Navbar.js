@@ -51,10 +51,10 @@ const Navbar = class extends React.Component {
           {/*     appreciate the understanding. */}
           {/*   </p> */}
           {/* </div> */}
-          {/* <Link to="/" title="Home"> */}
-          {/*   <img src={logo} alt="Uchida" /> */}
-          {/* </Link> */}
-        {/* </div> */}
+          <Link to="/" title="Home">
+            <img src={logo} alt="Uchida" />
+          </Link>
+        </div>
         <nav
           className="navbar is-transparent"
           role="navigation"
