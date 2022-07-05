@@ -30,10 +30,10 @@ const Navbar = class extends React.Component {
     return (
       <div>
         <div id="mainLogo" className="container center">
-          {/* <div class="notice warn" > */}
-          {/*   👋&nbsp;&nbsp;Uchida Eatery will be closed until further notice. Sorry for the inconvenience and we look forward to seeing you soon. */}
-          {/* </div> */}
-          <div class="notice">
+          <div class="notice warn" > */}
+            👋&nbsp;&nbsp;Uchida Eatery will be closed from July 6th (Tues.) to July 12th (Tues.). We will reopen for takeout on July 13th (Wed.). Sorry for the inconvenience and we look forward to seeing you soon. */}
+          </div>
+          {/* <div class="notice">
             <p>👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!</p>
             <br />
             <p>Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.</p>
@@ -50,7 +50,7 @@ const Navbar = class extends React.Component {
               available at this time. We apologize for the inconvenience and
               appreciate the understanding.
             </p>
-          </div>
+          </div> */}
           <Link to="/" title="Home">
             <img src={logo} alt="Uchida" />
           </Link>
