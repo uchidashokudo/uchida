@@ -30,8 +30,8 @@ const Navbar = class extends React.Component {
     return (
       <div>
         <div id="mainLogo" className="container center">
-          <div class="notice warn" > */}
-            👋&nbsp;&nbsp;Uchida Eatery will be closed from July 6th (Tues.) to July 12th (Tues.). We will reopen for takeout on July 13th (Wed.). Sorry for the inconvenience and we look forward to seeing you soon. */}
+          <div class="notice warn" >
+            👋&nbsp;&nbsp;Uchida Eatery will be closed from July 6th (Wed.) to July 12th (Tues.). We will reopen for takeout on July 13th (Wed.). Sorry for the inconvenience and we look forward to seeing you soon.
           </div>
           {/* <div class="notice">
             <p>👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!</p>
