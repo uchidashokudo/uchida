@@ -31,7 +31,7 @@ const Navbar = class extends React.Component {
       <div>
         <div id="mainLogo" className="container center">
           <div class="notice warn" >
-            👋&nbsp;&nbsp;Uchida Eatery will be closed until further notice with plans to reopen as soon as possible. We apologize for the inconvenience and we look forward to seeing you soon.<br/>Thank you for the continued support.
+            👋&nbsp;&nbsp;Uchida Eatery will be closed until further notice with plans to reopen as soon as possible.<br/>We apologize for the inconvenience and we look forward to seeing you soon.<br/>Thank you for the continued support.
           </div>
           {/* <div class="notice">
             <p>👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!</p>
