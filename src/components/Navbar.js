@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/uchida_logo_2.png";
+import { HTMLContent } from '../components/Content'
 
 const Navbar = class extends React.Component {
   componentDidMount() {
@@ -26,6 +27,7 @@ const Navbar = class extends React.Component {
     }
   }
 
+
   render() {
     return (
       <div>
@@ -33,23 +35,8 @@ const Navbar = class extends React.Component {
           {/* <div class="notice warn" >
             👋&nbsp;&nbsp;Uchida Eatery will be closed August 31st (Wed.) and September 1st (Thu.).<br/>We apologize for the inconvenience and we look forward to seeing you soon.<br/>Thank you for the continued support.
           </div> */}
-          <div class="notice">
-            <p>👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!</p>
-            <br />
-            <p>Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.</p>
-            <br />
-            <p>
-              <a href="https://uchida-eatery.square.site/" target="_blank">
-                Check out our new menu here.
-              </a>
-              &nbsp;&nbsp;🎉
-            </p>
-            <br />
-            <p style={{ fontSize: "0.9rem", fontStyle: "italic" }}>
-              We aren't able to accept phone-orders and dining-in is not
-              available at this time. We apologize for the inconvenience and
-              appreciate the understanding.
-            </p>
+          <div className={"notice " + this.props.data.description}>
+            <HTMLContent className="content" content={this.props.data.html} />
           </div>
           <Link to="/" title="Home">
             <img src={logo} alt="Uchida" />

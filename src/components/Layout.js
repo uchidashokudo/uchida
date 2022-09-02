@@ -10,16 +10,29 @@ const TemplateWrapper = ({ children }) => (
   <StaticQuery
     query={graphql`
       query HeadingQuery {
-          site {
-            siteMetadata {
+        site {
+          siteMetadata {
+            title,
+            description,
+            email,
+            instagram,
+            facebook
+          }
+        }
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+          nodes {
+            html
+            fields {
+              slug
+            }
+            frontmatter {
+              date(formatString: "MMMM DD, YYYY"),
               title,
               description,
-              email,
-              instagram,
-              facebook
             }
           }
         }
+      }
     `}
     render={data => (
       <div>
@@ -40,7 +53,7 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
         </Helmet>
-        <Navbar />
+        <Navbar data={data.allMarkdownRemark.nodes.find((e) => e.frontmatter.title === "navbar")} />
         <div>{children}</div>
         <Footer
           email={data.site.siteMetadata.email}
