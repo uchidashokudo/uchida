@@ -9,7 +9,9 @@ tags:
   - warn
 ---
 
-Uchida will be closed until September 14th (Wed.). We apologize for the inconvenience and look forward to seeing you seen. Thank you for your continued support.
+Uchida will be closed until September 14th (Wed.). 
 
-- Uchida Eatery
+We apologize for the inconvenience and look forward to seeing you seen. 
+
+Thank you for your continued support.
 
