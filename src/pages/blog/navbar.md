@@ -11,7 +11,7 @@ tags:
 
 Uchida will be closed until September 14th (Wed.). 
 
-We apologize for the inconvenience and look forward to seeing you seen. 
+We apologize for the inconvenience and look forward to seeing you soon. 
 
 Thank you for your continued support.
 
