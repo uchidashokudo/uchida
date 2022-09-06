@@ -35,7 +35,7 @@ const Navbar = class extends React.Component {
           {/* <div class="notice warn" >
             👋&nbsp;&nbsp;Uchida Eatery will be closed August 31st (Wed.) and September 1st (Thu.).<br/>We apologize for the inconvenience and we look forward to seeing you soon.<br/>Thank you for the continued support.
           </div> */}
-          <div className={"notice " + this.props.data.description}>
+          <div className={"notice " + this.props.data.frontmatter.description}>
             <HTMLContent className="content" content={this.props.data.html} />
           </div>
           <Link to="/" title="Home">
