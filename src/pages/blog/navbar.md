@@ -3,15 +3,18 @@ templateKey: "blog-post"
 title: "navbar"
 date: 2017-01-04T15:04:10.000Z
 description: >-
-  warn
+  normal
 tags:
   - normal
   - warn
 ---
 
-Uchida will be closed until September 14th (Wed.). 
+👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
 
-We apologize for the inconvenience and look forward to seeing you soon. 
+Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.
 
-Thank you for your continued support.
+[Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
 
+_We aren't able to accept phone-orders and dining-in is not
+available at this time. We apologize for the inconvenience and
+appreciate the understanding._
