@@ -9,12 +9,6 @@ tags:
   - warn
 ---
 
-👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
+👋&nbsp;Uchida Eatery will be selling onigiri 🍙 (rice balls) this Saturday (Oct. 22nd) as part of the tea festival. We hope to see you there! 
 
-Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.
-
-[Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
-
-_We aren't able to accept phone-orders and dining-in is not
-available at this time. We apologize for the inconvenience and
-appreciate the understanding._
+Our normal schedule will resume next week. We appreciate your understanding.
