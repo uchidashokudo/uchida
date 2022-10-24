@@ -9,10 +9,12 @@ tags:
   - warn
 ---
 
-👋&nbsp;Uchida Eatery will be selling onigiri 🍙 (rice balls) this Saturday (Oct. 22nd) as part of the tea festival at Nootka Court. 
+👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
 
-We'll be selling at the door and pausing online orders for the day. 
+Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.
 
-Come out to the festival and we hope to see you there! 
+[Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
 
-Our normal schedule will resume next week. We appreciate your understanding.
+_We aren't able to accept phone-orders and dining-in is not
+available at this time. We apologize for the inconvenience and
+appreciate the understanding._
