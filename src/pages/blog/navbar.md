@@ -9,9 +9,7 @@ tags:
   - warn
 ---
 
-👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
-
-Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.
+👋&nbsp;&nbsp;New Year’s Eve TAKEOUT MENU. PICK UP between 4pm - 6pm
 
 [Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
 
