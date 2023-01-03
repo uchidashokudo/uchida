@@ -9,7 +9,7 @@ tags:
   - warn
 ---
 
-👋&nbsp;&nbsp;New Year’s Eve TAKEOUT MENU. PICK UP between 4pm - 6pm
+👋&nbsp;&nbsp; We will be closed until the 10th of January. Happy new year!
 
 [Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
 
