@@ -9,7 +9,9 @@ tags:
   - warn
 ---
 
-👋&nbsp;&nbsp; We will be closed until the 10th of January. Happy new year!
+👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
+
+Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.
 
 [Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
 
