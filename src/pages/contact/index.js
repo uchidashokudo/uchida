@@ -58,10 +58,10 @@ export default class Index extends React.Component {
                         <ul>
                           <li><b>Mon.</b> Closed</li>
                           <li><b>Tue.</b> Closed</li>
-                          <li><b>Wed.</b> 11:30pm - 2:30pm</li>
-                          <li><b>Thu.</b> 11:30pm - 2:30pm</li>
-                          <li><b>Fri.</b> 11:30pm - 2:30pm</li>
-                          <li><b>Sat.</b> 11:30pm - 2:30pm</li>
+                          <li><b>Wed.</b> 11:00pm - 2:00pm</li>
+                          <li><b>Thu.</b> 11:00pm - 2:00pm</li>
+                          <li><b>Fri.</b> 11:00pm - 2:00pm</li>
+                          <li><b>Sat.</b> 11:00pm - 2:00pm</li>
                           <li><b>Sun.</b> Closed</li>
                         </ul>
                       </li>
