@@ -11,7 +11,7 @@ tags:
 
 👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
 
-Open Wednesday - Saturday. Pick up between 11:30am - 2:30pm.
+Open Wednesday - Saturday. Pick up between 11:00am - 2:00pm.
 
 [Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
 
