@@ -11,4 +11,4 @@ tags:
 
 👋&nbsp;&nbsp; UCHIDA EATERY WILL NOT BE ACCEPTING ORDERS FOR FRIDAY SEPTEBMER 8TH. This is due to an [outage with our payment processor](https://twitter.com/Square/status/1699922313704071497). We apologize for the inconvenience.
 
-Please do NOT place any orders through the website as it still working, but do not have access to the dashboard.
+Please do NOT place any orders through the website as payment is still working, but we do not have access to the dashboard to see order details.
