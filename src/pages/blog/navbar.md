@@ -3,18 +3,12 @@ templateKey: "blog-post"
 title: "navbar"
 date: 2017-01-04T15:04:10.000Z
 description: >-
-  normal
+  warn
 tags:
   - normal
   - warn
 ---
 
-👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
+👋&nbsp;&nbsp; UCHIDA EATERY WILL NOT BE ACCEPTING ORDERS FOR FRIDAY SEPTEBMER 8TH. This is due to an [outage with our payment processor](https://twitter.com/Square/status/1699922313704071497). We apologize for the inconvenience.
 
-Open Wednesday - Saturday. Pick up between 11:00am - 2:00pm.
-
-[Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
-
-_We aren't able to accept phone-orders and dining-in is not
-available at this time. We apologize for the inconvenience and
-appreciate the understanding._
+Please do NOT place any orders through the website as it still working, but do not have access to the dashboard.
