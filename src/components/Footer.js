@@ -37,9 +37,6 @@ const Footer = ({ email, instagram, facebook }) => {
           <a href={"mailto:" + email}>Email</a>
         </li>
         <li className="title" style={{paddingTop: "12px"}}>Menu</li>
-        <li>
-          <a href="https://uchida-eatery.square.site/" target="_blank">Take Out Menu</a>
-        </li>
       </ul>
       <ul >
         <li className="title">Social</li>
