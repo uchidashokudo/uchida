@@ -9,10 +9,12 @@ tags:
   - warn
 ---
 
-👋&nbsp;&nbsp; UCHIDA EATERY WILL NOT BE ACCEPTING ORDERS FOR FRIDAY SEPTEBMER 8TH-- and possibly the following days. This is due to an [outage with our payment processor](https://twitter.com/Square/status/1699922313704071497). We apologize for the inconvenience.
+👋&nbsp;&nbsp;Uchida Eatery is accepting ONLINE TAKE-OUT orders!
 
-Please do NOT place any orders through the website as payment is still working, but we do not have access to the dashboard to see order details.
+Open Wednesday - Saturday. Pick up between 11:00am - 2:00pm.
 
-We will be CLOSED Friday September 8th.
+[Check out our new menu here.](https://uchida-eatery.square.site/)&nbsp;&nbsp;🎉
 
-Sorry to our patrons for the inconvenience.
+_We aren't able to accept phone-orders and dining-in is not
+available at this time. We apologize for the inconvenience and
+appreciate the understanding._
